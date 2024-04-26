@@ -305,7 +305,6 @@ func ParseOptions() *Options {
 	var cfgFile string
 
 	flagSet := goflags.NewFlagSet()
-	//flagSet.SetDescription(`httpx is a fast and multi-purpose HTTP toolkit that allows running multiple probes using the retryablehttp library.`)
 	flagSet.SetDescription(`httpx 是一个快速且多用途的 HTTP 工具包，允许使用 retryablehttp 库运行多个探针。`)
 
 	flagSet.CreateGroup("input", "输入",

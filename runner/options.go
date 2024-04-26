@@ -308,12 +308,6 @@ func ParseOptions() *Options {
 	//flagSet.SetDescription(`httpx is a fast and multi-purpose HTTP toolkit that allows running multiple probes using the retryablehttp library.`)
 	flagSet.SetDescription(`httpx 是一个快速且多用途的 HTTP 工具包，允许使用 retryablehttp 库运行多个探针。`)
 
-	//flagSet.CreateGroup("input", "Input",
-	//	flagSet.StringVarP(&options.InputFile, "list", "l", "", "input file containing list of hosts to process"),
-	//	flagSet.StringVarP(&options.InputRawRequest, "request", "rr", "", "file containing raw request"),
-	//	flagSet.StringSliceVarP(&options.InputTargetHost, "target", "u", nil, "input target host(s) to probe", goflags.CommaSeparatedStringSliceOptions),
-	//)
-
 	flagSet.CreateGroup("input", "输入",
 		flagSet.StringVarP(&options.InputFile, "list", "l", "", "包含要处理的主机列表的输入文件"),
 		flagSet.StringVarP(&options.InputRawRequest, "request", "rr", "", "包含原始请求的文件"),

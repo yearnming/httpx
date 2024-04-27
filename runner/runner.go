@@ -107,7 +107,7 @@ func New(options *Options) (*Runner, error) {
 	}
 	var err error
 	if options.TechDetect != "false" {
-		// 在此处修改指纹识别方式 添加 "-tdr string 指定自定义指纹文件" 选项
+		// 在此处修改指纹识别方式 添加 "-tdr string 指定自定义指纹文件" 选项测试
 		runner.wappalyzer, err = wappalyzer.New()
 	}
 	if err != nil {

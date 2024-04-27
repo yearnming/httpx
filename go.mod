@@ -1,4 +1,4 @@
-module github.com/projectdiscovery/httpx
+module github.com/yearnming/httpx
 
 go 1.21
 
@@ -51,6 +51,8 @@ require (
 	golang.org/x/sys v0.17.0 // indirect
 	golang.org/x/text v0.14.0
 )
+
+require github.com/projectdiscovery/httpx v1.6.0
 
 require (
 	aead.dev/minisign v0.2.0 // indirect

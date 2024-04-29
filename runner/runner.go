@@ -7,6 +7,7 @@ import (
 	"encoding/csv"
 	"encoding/json"
 	"fmt"
+	wappalyzer1 "github.com/yearnming/wappalyzer"
 	"html/template"
 	"image"
 	"io"
@@ -1767,7 +1768,8 @@ retry:
 
 	var technologies []string
 	if scanopts.TechDetect != "false" {
-		matches := r.wappalyzer.Fingerprint(resp.Headers, resp.Data)
+		//matches := r.wappalyzer.Fingerprint(resp.Headers, resp.Data)
+		matches := wappalyzer1.Wappalyzer(resp.Headers, resp.Data, fullURL)
 		for match := range matches {
 			technologies = append(technologies, match)
 		}

@@ -561,8 +561,8 @@ github.com/xo/terminfo v0.0.0-20210125001918-ca9a967f8778 h1:QldyIu/L63oPpyvQmHg
 github.com/xo/terminfo v0.0.0-20210125001918-ca9a967f8778/go.mod h1:2MuV+tbUrU1zIOPMxZ5EncGwgmMJsa+9ucAQZXxsObs=
 github.com/yearnming/ehole v1.0.0 h1:jh9FARkGCSDnhKDBSk5JtMj0HZYQ+BbU0swQLOP167g=
 github.com/yearnming/ehole v1.0.0/go.mod h1:ZJQxtpEMKtCFCpFNybp8x2HNGElJlSR16yhYx1Lbefk=
-github.com/yearnming/wappalyzer v1.0.1 h1:ruKcfJKr9jmWa5m4EFTm6Sjkmwcau30YDs7kc4P1hmM=
-github.com/yearnming/wappalyzer v1.0.1/go.mod h1:kLO7cXH/8dCrBkbvpuG6XoUsrOkvrPjpwCuZKYE303U=
+github.com/yearnming/wappalyzer v1.0.2 h1:rBHU5QV2M4DVkGUyOFbV7gGPYubDjbtCsNoiZUzkLrY=
+github.com/yearnming/wappalyzer v1.0.2/go.mod h1:kLO7cXH/8dCrBkbvpuG6XoUsrOkvrPjpwCuZKYE303U=
 github.com/yinheli/mahonia v0.0.0-20131226213531-0eef680515cc h1:7VHQaaNwHymWbj8lAcXMYX1qopebSBHwYC3ceXLWONU=
 github.com/yinheli/mahonia v0.0.0-20131226213531-0eef680515cc/go.mod h1:Pcc297eVCbkDBBVq8FbnI+qDUeIMrHy4Bo7nveAuCAs=
 github.com/yl2chen/cidranger v1.0.2 h1:lbOWZVCG1tCRX4u24kuM1Tb4nHqWkDxwLdoS+SevawU=
